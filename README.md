@@ -1,2 +1,2 @@
-# Github-course
-this ripo just for studying 
+# template-three
+this ripo for template three 
