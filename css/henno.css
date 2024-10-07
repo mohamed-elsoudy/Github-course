@@ -1461,8 +1461,12 @@ margin-bottom: 10px;
 .discount {
   display: flex;
 }
+@media (max-width: 768px) {
+.discount {
+    flex-direction: column;
+} 
+}
 .discount .first-half {
-  width: 50%;
   height: 100vh;
   background-image: url(../images/discount-background2.jpg);
   position: relative;
@@ -1499,9 +1503,13 @@ margin-bottom: 10px;
   margin: 0 calc(50% - 150px);
 }
 .discount .second-half {
-  width: 50%;
   height: 100vh;
   background-color: white;
+}
+@media (min-width: 768px) {
+     .discount .second-half,
+    .discount .first-half {
+    width: 50%;
 }
 .discount .second-half h2 {
   font-size: 40px;
