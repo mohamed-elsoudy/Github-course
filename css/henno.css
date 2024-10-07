@@ -1215,6 +1215,8 @@ background-color: var(--section-background);
 .pricing .container {
   display: flex;
   justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 .pricing .container .card {
   background-color: white;
