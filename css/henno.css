@@ -976,7 +976,7 @@ background-color: #eeeeee47;
 }
 .our-skills .container .bar {
   width: 500px;
-    max-width: 400px;
+    max-width: 385px;
   height: 25px;
   background-color: var(--section-background);
   position: relative  ;
