@@ -962,8 +962,7 @@ background-color: #eeeeee47;
   padding-bottom: var(--main-padding-bottom)
 }
 .our-skills .container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, auto));
+  display: flex;
   justify-content: center;
 }
 .our-skills .container img {
@@ -976,13 +975,14 @@ background-color: #eeeeee47;
 }
 .our-skills .container .bar {
   width: 500px;
-    max-width: 385px;
+    max-width: 500px;
   height: 25px;
   background-color: var(--section-background);
   position: relative  ;
 }
 .our-skills .container .cardour {
   max-width: 100%;
+    flex: 1;
 }
 .our-skills .container .cardour h2 {
   padding: 0;
